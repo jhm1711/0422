@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: rgb(239, 255, 230);
+}
+
+.titles {
+  /* width: 95%;
+  max-width: 600px; */
+  width: 95%;
+  /* max-width: 520px; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 40px;
+  width: 100%;
+  /* border-top: 1px solid #333;
+  border-bottom: 1px solid #333; */
+  margin-top: 90px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: rgb(193, 0, 0);
+}
+
+#burger-brand {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+#options {
+  color: rgb(255, 255, 255);
+  border: 1px solid #000000;
+  background-color: #000000;
+
+  outline: 0;
+}
+
+.options-label {
+  color: #a8a8a8;
+  margin-right: 6px;
+  font-size: 15px;
+}
